@@ -11,7 +11,7 @@
 }
 body{
     position: relative;
-    height: 100vh;
+    height: -webkit-fill-available;
     background-color: #1ecbe1;
     overflow-y: hidden;
 }
