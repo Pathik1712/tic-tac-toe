@@ -74,8 +74,8 @@ body{
     align-items: center;
     flex-direction: column;
     left: 50%;
-    bottom: 0;
-    transform: translate(-50%,100%);
+    top: 0;
+    transform: translate(-50%,-100%);
     font-size: 5rem;
     font-weight: bold;
     text-transform: capitalize;
@@ -224,7 +224,7 @@ body{
 }
 @keyframes win{
     from{
-        transform: translate(-50%,100%);
+        transform: translate(-50%,-100%);
     }
     to{
         transform: translate(-50%,0);
