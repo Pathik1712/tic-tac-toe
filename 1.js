@@ -1,10 +1,4 @@
 let count=0,flag=1,empty=9,game=0,s_count=0,icon,opp,start_move,hard_count=0,tp=0;
-const set=()=>{
-    const ch=window.innerHeight;
-    document.body.style.heaight=`${ch}px`;
-}
-window.addEventListener("resize",set());
-set();
 const pause=(i)=>{
     const a=document.getElementsByClassName('pm')
     if(i==1){
